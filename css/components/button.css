@@ -13,3 +13,8 @@
 .button:hover {
     transform: scale(1.08);
 }
+
+.button.-first{
+    display: inline-flex;   
+    width: 150px;
+}

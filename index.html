@@ -7,18 +7,19 @@
     <link rel="shortcut icon" href="assets/icone/favicon.ico" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/banner.css">
     <link rel="stylesheet" href="css/components/section.css">
     <link rel="stylesheet" href="css/components/button.css">
-    <link rel="stylesheet" href="css/components/tittle.css">
+    <link rel="stylesheet" href="css/components/main-tittle.css">
     <link rel="stylesheet" href="css/components/subtitle.css">
     <link rel="stylesheet" href="css/components/box.css">
     <link rel="stylesheet" href="css/components/action.css">
+    <link rel="stylesheet" href="css/components/atendimentos-tec.css">
 </head>
 <body>
     <header class="header">
@@ -28,14 +29,14 @@
             <a class="action" href="">atendimentos</a> 
             <a class="action" href="">sobre</a>
 
-            <a class="button" href="">contato</a>
+            <a class="button -first" href=""><img src="assets/img/wpp-35.png" alt="Logo-Whatsapp"><div>contato</div></a>
         </nav>
     </header>   
        <section class="banner">
            <div class="wrapper">
                
                 <div class="box">
-                    <h2 class="title">Precisa de um advogado</h2>
+                    <h2 class="main-title">Precisa de um advogado</h2>
                     <h3 class="subtitle">Especialista em direito civil ?</h3>
                 </div>
 
@@ -46,7 +47,17 @@
        </section>
 
        <section class="section">          
-           <h2 class="title -second">atendimentos</h2>
+           <h2 class="main-title -second">atendimentos</h2>
+
+        <dl class="atendimentos-tec">
+            <dt class="title">Direito do Consumidor</dt>
+            <dd class="icon">
+                <img src="assets/img/consumidor.png" alt="Logo-Direito-Consumidor">
+            </dd>
+            <dd class="bar">
+                <p>Nossa equipe oferece soluções jurídicas especializadas para proteger seus direitos como consumidor. Defendo seus interesses contra práticas abusivas e busco a melhor compensação para você.</p>
+            </dd>
+        </dl>   
        </section>
 </body>
 </html>
