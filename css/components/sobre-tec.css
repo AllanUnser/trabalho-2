@@ -1,0 +1,29 @@
+.sobre-tec{
+    font-size: 48px;
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    width: 580px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sobre-tec .bar{
+    color: rgb(113, 113, 122);
+    font-size: 16px;
+    font-family: "inter", sans-serif;
+    line-height: 22.4px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.img-adv img{
+    align-items: flex-end;
+    width: 350px;
+    height: 403.5px;
+}
+
