@@ -1,7 +1,7 @@
 .subtitle {
-    font-size: large 30px;
+    font-size: 25px;
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
-    text-shadow: 4px 4px 0 black;
-    color: aqua;
+    text-shadow: 2px 2px 0 black;
+    color: rgb(192, 192, 204);
     text-align: center;
 }
