@@ -1,4 +1,4 @@
-.button{
+.main-button{
     display: inline-flex;
     align-items: center;
     background-color: #25D366;
@@ -12,6 +12,6 @@
     text-decoration: none;
 }
 
-.button:hover {
+.main-button:hover {
     transform: scale(1.08);
 }
